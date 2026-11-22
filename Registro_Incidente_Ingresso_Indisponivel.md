@@ -6,7 +6,7 @@ Uma cliente entrou em contato com o suporte porque havia concluído a compra, ma
 
 ## Resultado esperado e resultado observado
 
-| Resultado esperado | Resultado observado |
+| Esperado | Observado |
 |---|---|
 | Após o reconhecimento do pagamento, o ingresso fica disponível para a cliente acessar. | O valor da compra havia sido recebido, mas a cliente não conseguia acessar o ingresso. |
 
