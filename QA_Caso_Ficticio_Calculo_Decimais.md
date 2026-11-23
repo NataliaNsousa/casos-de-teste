@@ -2,18 +2,18 @@
 
 ## Contexto e impacto
 
-Em um sistema de vendas fictício, algumas compras apresentaram divergências no total calculado. O problema ocorria de forma recorrente com determinados produtos, o que tornava o valor final da venda pouco confiável.
+Neste cenário fictício, percebi que algumas vendas apresentavam divergências no total calculado. Como o problema se repetia, comecei a investigar quais produtos apareciam nas vendas afetadas.
 
 ## Investigação
 
 1. Listei os produtos das vendas afetadas e comparei seus preços com os de vendas que haviam funcionado normalmente.
 2. Identifiquei um padrão nos casos analisados: os produtos afetados tinham preços com finais em **,98** ou **,99**, como **R$ 10,98** e **R$ 10,99**.
 3. Levei o padrão à equipe de desenvolvimento, junto com os valores esperados e os valores exibidos pelo sistema.
-4. Durante a análise conjunta, identificamos que a divergência vinha do tratamento das casas decimais no cálculo do total da venda.
+4. Analisei o problema com a equipe de desenvolvimento e identificamos que a divergência vinha do tratamento das casas decimais no cálculo do total da venda.
 
 ## Correção e revalidação
 
-A equipe de desenvolvimento corrigiu o cálculo dos valores monetários. Após a correção, as vendas afetadas foram revalidadas e puderam seguir com os totais esperados.
+Depois que a equipe de desenvolvimento corrigiu o cálculo dos valores monetários, revalidei as vendas afetadas e confirmei que os totais correspondiam aos valores esperados.
 
 ## Casos de teste
 
